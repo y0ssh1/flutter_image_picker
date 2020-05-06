@@ -1,0 +1,28 @@
+name: asset_list
+description: create local asset list by flutter
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.4.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  build: ^1.2.2
+  cupertino_icons: ^0.1.2
+  freezed_annotation: ^0.7.1
+  json_annotation: ^3.0.1
+  flutter_state_notifier: ^0.4.2
+  provider: ^4.1.0-dev
+
+dev_dependencies:
+  freezed: ^0.10.7
+  json_serializable: ^3.3.0
+  build_runner: ^1.9.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
